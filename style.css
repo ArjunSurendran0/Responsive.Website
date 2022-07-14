@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    background: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    
+
+}
+.browse{
+    font: 7px;
+    color: white;
+}
+
+button:focus {
+    outline: 0;
+}
+.third_page{
+    
+    background-image: url(assets-4/asset\ 2.svg);
+    background-repeat: no-repeat;
+   height: 400px;
+    overflow: hidden;
+}
+
+
+section ,.third_page{
+    background: rgb(0, 0, 0);
+}
+.btn{
+    border-radius: 23px;
+}
+.third_page{
+    padding-top: 9rem;
+}
+.fourth_page , body{
+    background-color: #121212;
+
+}
+.card-text{
+    font-size: smaller;
+    color: rgb(185, 183, 183);
+}
+
+.card img{
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+    
+
+  }
+    
+
+
+.card img:hover{
+
+   
+    transform: scale(1.1);
+}
+footer{
+    background-color: black;
+}
+ul .head_list{
+
+    color: rgb(122, 120, 120);
+    
+}
+ul li{
+    font-size: small;
+    color: white;
+}
+p{
+    font-size: x-small;
+    color: rgba(255, 248, 248, 0.479);
+    display: inline-block;
+
+}
+p:hover{
+    color: green;
+    cursor: pointer;
+}
+ul li:hover{
+    color: green;
+    cursor: pointer;
+
+}
